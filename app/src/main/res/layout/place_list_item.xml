@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+    <LinearLayout android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:padding="8dp">
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:textSize="18sp"
+            android:textColor="@color/dimgrey"
+            android:text="text"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical">
+        </TextView>
+    </LinearLayout>
+    <!--必须指定宽度-->
+    <TextView android:id="@+id/txtv_delete" android:layout_width="96dp"
+        android:layout_height="match_parent"
+        android:textSize="18sp" android:text="删除" android:textColor="#eeeeee" android:gravity="center" android:background="#e53935">
+    </TextView>
+</LinearLayout>
